@@ -1,0 +1,24 @@
+A. Mikrobitin artikkelit korostivat Linux-jakelupakettien valinnoissa ennen kaiken tietoturvaan ja kokeilun haluun.
+	Huomioon pitäisi tietokoneosaavien ja maallikoiden pitää mielessä Linux-jakelupaketin tarjoamat ohjelmistot ja paketit sekä sen muokattavuus
+	On olemassa eri käyttötarkoituksia ja jakelupaketit soveltuvat johonkin näistä, esim. Linux Mint ja Ubuntu päiväittäis käyttöön, Gentoo ja Arch
+	täydelliseen kustomointiin jne... Komentoriviä joutuu kaikissa käyttää, mutta joissain on graafinen liittymä tarpeeksi sujuva tavallisen IT-harrastelijan tarpeisiin.
+	Vähemmän tärkeänä on laitteen rauta, kaikki jakelupaketit eivät sovi kaikkiin koneen osiin, mainittakoon se, että Android ei ole saatavilla pöytäkoneille.
+	Päivitykset ja yhteisö määräävät pitkältikin valinnassa, kanattaa valita se jakelupaketti, missä on hyvät dokumentaatiot ja wiki sekä aktiivinen yhteisö, kelle kysyä tarpeitansa.
+	
+	Linux jakelupakettia valittaessa on vaihtoehtona säilyttää Windows/Macos rinnalla ilman dual boottiakin. Suurin osa toiminee myös USB-tikun kautta lisäen turvaa.
+	Valinta ei ole kuitenkaan maailman loppu, sillä jakelupaketeissa on paljon samoja vaihtoehtoja, sovellukset ja käyttöliittymät voidaan käyttää ristiin ja siksi ei tarvitse tyytyä paketissa valmiina oleviin.
+
+B. Vastasin kysymyksiin rehellisesti, en tiedä vielä paljoa tietokoneista, mutta silti enemän kuin tavis. Haluaisin jakelupaketin, joka aika kankea asennettuna, siinä ei tarvitse olla paljon mitään, paitsi tarvittavat
+	ohjelmistot ja paketit toimintaan. Käyttötarkoituksena päivittäinen ja pelaaminen, olenhan 'GAMER'. Toivonen asentavani distron klassisesti kovalevylleni Windows rinnalla.
+	Hinta täytyy olla ilmainen ja apua täytyy olla saatavilla wikiasta, mutta käyttäjätkin kelpaavat. En tahdo, että distro vakoilee toimintaani ja päivityksiä en kaipane kuin kerran vuodessa, eikä edes sitäkään!
+	Käyttöliittymänä toivoisin erillaista kuin Windos tai MacOs, vaikkapa Unity tai KDE, Mate. 
+	
+	Tarkemmasta kyselystä sain vastaukseksi Scientific Linux, CentOs, Red Hat Enterprise Linux. Nämä tosin eivät vastaa tarpeitani, tietokone tietämykseni ei yllä niiden vaatimaan tasoon,
+	mutta muuten ne vastaavat tarpeisiini, eli wiki, päivittäiskäyttö, kova-asema asennus, ilmaisuus, vakaat päivitykset, komentoliittymä käyttöä, eikä vakoilua.
+	
+	Helpommasa kyselystä tuli itselleni oikeasti vastaavammat distrot, en kehtaa näet käyttää epäsuosittuja vähäisen tuen vuoksi. Uskon saavani apua parhaiten käyttäjiltä vaikka REDDIT:stä ja muista foorumeista paremmin
+	kuin wiki lukemisesta. Linux Mint, Fedora, Elementary Os, Debian, Pop!_OS, Kubuntu olivat suositeltuja. 
+	
+	Näistä distroista distrowatch.com näyttää Mint olevan 3., Pop!_OS 4., Debian 6., Fedora 9... Kaikki suosittuja.
+	Scientific Linux 179., CentOS 21. ja Red Hat 69.. CentOs näyttäisi voivan olla sopiva vaihtoehto, jos tahdon vähemmän tunnettua.
+	
