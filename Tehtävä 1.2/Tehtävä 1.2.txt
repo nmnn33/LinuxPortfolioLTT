@@ -1,0 +1,22 @@
+A. Lähteenä https://training.linuxfoundation.org/resources/2020-open-source-jobs-report/ ja https://www.e-janco.com/career/employmentdata.html käyttäen 
+	voidaan ainakin USA:n tilanne tarkaillen päätellä IT-alan työllistymismahdollisuuksi maailmalla. IT-töitä ei ole syntynyt yhtä paljon kuin viime vuonna (2019),
+	e-janco.com mukaan työpaikkoja on USA:ssa vähentynyt n. 35,000 korona-tilanteen takia (2020), kun edellis vuonna ja sitä edeltävänä oli syntynyt n. 90,000.
+	Vuosi 2021 on alkanut nostaa työpaikkojen määrää maltillisesti, mutta vielä ei ole selvää, pääseekö se entiselleen tänä vuonna. Tilanne ei ole kuitenkaan mahdoton,
+	sillä täällä Suomessa on IT-työ ilmoituksia vielä tarjolla kuten aina. Töitä alalla on Amerikassa 3.62 miljoonaa vuonna 2021.
+	
+	Trendeinä ovat vuonna 2020 avoimen lähteen koodin osaajat, pilven käyttäjät, DevOps, osaavan työntekijän koulutus firman tuella.
+	Suurin osa työnantajista, n. 80% on valmis järjestämään online kursseja työntekijöilleen. Automaatio on vähentänyt ja tulee vähentämään telekommunikaatiotöitä.
+	Tutkinto papereita arvostetaan jonkin verran enemmän viime vuoteen nähden ja se tulee kasvamaan. On raportoitu, että jopa 52 prosenttia työnantajista palkkaavat
+	mielummin tutkinnon suorittaneen kuin suorittamattoman. Tämä oli viime vuonna 47%.  Linux osaaminen kytkeytyy suoraan avoimen koodin osaamiseen, joten sen taitajia
+	kaivataan todella kuten ennenkin. Linux kytkeytyy vahvasti pilvipalveluihin ja Linux käyttö osoittaa muutenkin syvempää perehdytystä alasta.
+	
+B. Monster.fi tuotti 50 hakua ja https://duunitori.fi/ tuotti 347 hakua. 
+	
+	Testausautomaation asiantuntija, Patria, kuuluu selkosti IT-alalle, ohjelmistotestaus puolelle. Tarkennettuna testataan automaatioohjelmia viranomaisille. 
+	Tarveena olisi Javan tai muun oliokielen-ohjelmoinnin osaamista, Python, Selenium, RobotFramework, Linux-käyttis ja skriptaus. Etätöiden teko ei onnistu turvallisuus syistä.
+	
+	Academic Work, Netcontrol, ICT-asiantuntija kuluu IT-alaan. Tehtävä nimike paljastaa työnkuvan, olla ICT-asiantuntija, joka auttaa muita työntekijöitä firmassa ja ylläpitää
+	firman verkkoa pystyssä. Tarveena olisi ainakin 1-2 vuoden kokemus hommasta, koulutus alalta, kokemus Linux ja Windows verkon ylläpidosta.
+	
+	Datacrunch, System administrator on IT-alan juttu ja siitä backend hommia. Vaatii PHP,Python,JavaScript,SQL,HTML,Postgresql osaamista, virtualisaatio, tietoliikenne ymmärrystä.
+	Hyveenä nähdään kokemusta virtuaalikoneista, käyttöjärjestälmättömistä koneista, Puppet-ohjelmasta, CEPH tallennus systeemistä.
