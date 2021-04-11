@@ -1,0 +1,25 @@
+1. a) cat- komento kohdentaa haluamaamme asiaan, tässä tapauksessa /var/log/syslog oleva syslog tekstitiedostoon. | - komento putkittaa sen wc -l -komennon kanssa, eli syslog tehdään wc -l -komento, joka laskee syslog tekstin rivimäärän, joita on 8191.
+b) ls -l luettelee nykyisen hakemiston pitkästi, ja se putkitetaan | -komennolla sort -r -komentoon, joka kääntää tulokset vastaikkaiseen järjestykseen ja se putkitetaan | more -komentoon. More komento näyttää tuloksen terminaaliin mahtuvaksi tavallaan luoden sivuja, eli voimme selata sitä sivuttain jos olisi listamme ollut pidempi. 
+c) ls listaa nykyisen hakemiston sisällön, se putkitetaan head -3, joka esittää 3 ensimmäistä tulosta, se putkitetaan tail -1, joka esittää viimeisen tuloksen ja nämä luodaan myoutput tekstitiedostoon. Kuvankaappauksessa nähdään, että siellä lukee Downloads, mikä tekee järkeen. 
+
+2.a) Kaikkien mp3 päätteisten tiedostojen löytäminen locate-komennolla kävisi:
+locate *.mp3
+Tällä kertaa ei koneessani ollut .mp3 tiedostoja.
+b) Tänään muokatut tiedostot löydän: find . -mtime -1 -print
+-komennolla. . -mtime -1 kuvastaa yhden päivän aikana tapahtuneita muutoksia.
+c) Kaikki yli 10MBm koon tiedostot löydämme: find . -type f -size -10M 
+-komennolla.
+
+3.a) Koko kotihakemiston pakkaaminen tar.gz -pakettiin luonnistuu: tar -zcvf home.tar.gz /home
+- komennolla.
+b) Siirretään ensin luomani gz-paketti muualle. XZ-pakkausohjelmalla saamme saman kuin a) kohdassa : tar cJvf home.tar.xz /home
+-komennolla.
+c) Luomani tiedostojen koko erot ovat: 79M gz, 144M xz. Eli gz-pakkaus on tehokkaampi, melkeinpä kaksinkertainen puristuskoko.
+
+4. a)Käytin tehtävissä https://chmod-calculator.com/. Kaikille luku ja kirjoitusoikeuksien antaminen tapahtuu: chmod +666 (tiedosto) ja chmod a=rw (tiedosto)
+-komennoilla.
+b) Kohdan a kirjoitusoikeuksien poisto kaikilta tapahtuisi chmod a-w (tiedosto) ja chmod 222 (tiedosto)
+-komennolla.
+c) Tehdään uusi hakemisto, nimeltään moses. Sillä on kaikilla oikeudet lukea, mutta vain omistajalla on luku ja suoritusoikeus. Se luodaan: chmod 744 moses ja chmod u=rwx,go=r moses
+-komennoilla.
+
