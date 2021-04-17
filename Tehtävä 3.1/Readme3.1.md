@@ -1,9 +1,12 @@
 ##1. 
-a) _cat-_ 
+a) _cat-_
+
 komento kohdentaa haluamaamme asiaan, tässä tapauksessa /var/log/syslog oleva syslog tekstitiedostoon. | - komento putkittaa sen wc -l -komennon kanssa, eli syslog tehdään wc -l -komento, joka laskee syslog tekstin rivimäärän, joita on 8191.
 b) _ls -l_ 
+
 luettelee nykyisen hakemiston pitkästi, ja se putkitetaan | -komennolla sort -r -komentoon, joka kääntää tulokset vastaikkaiseen järjestykseen ja se putkitetaan | more -komentoon. More komento näyttää tuloksen terminaaliin mahtuvaksi tavallaan luoden sivuja, eli voimme selata sitä sivuttain jos olisi listamme ollut pidempi. 
-c) ls listaa nykyisen hakemiston sisällön, se putkitetaan head -3, joka esittää 3 ensimmäistä tulosta, se putkitetaan tail -1, joka esittää viimeisen tuloksen ja nämä luodaan myoutput tekstitiedostoon. Kuvankaappauksessa nähdään, että siellä lukee Downloads, mikä tekee järkeen. 
+c)
+ ls listaa nykyisen hakemiston sisällön, se putkitetaan head -3, joka esittää 3 ensimmäistä tulosta, se putkitetaan tail -1, joka esittää viimeisen tuloksen ja nämä luodaan myoutput tekstitiedostoon. Kuvankaappauksessa nähdään, että siellä lukee Downloads, mikä tekee järkeen. 
 
 ##2.
 a) Kaikkien mp3 päätteisten tiedostojen löytäminen locate-komennolla kävisi:
