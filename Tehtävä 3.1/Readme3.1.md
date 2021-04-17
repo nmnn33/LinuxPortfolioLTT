@@ -14,16 +14,15 @@ Tällä kertaa ei koneessani ollut .mp3 tiedostoja.
 
 b) Tänään muokatut tiedostot löydän: 
 _find . -mtime -1 -print_
--komennolla. . -mtime -1 kuvastaa yhden päivän aikana tapahtuneita muutoksia.
+
+. -mtime -1 kuvastaa yhden päivän aikana tapahtuneita muutoksia.
 
 c) Kaikki yli 10MBm koon tiedostot löydämme: 
 _find . -type f -size -10M_
--komennolla.
 
 ##3.
 a) Koko kotihakemiston pakkaaminen tar.gz -pakettiin luonnistuu: 
 _tar -zcvf home.tar.gz /home_
-- komennolla.
 
 b) Siirretään ensin luomani gz-paketti muualle. XZ-pakkausohjelmalla saamme saman kuin a) kohdassa : 
 _tar cJvf home.tar.xz /home_
@@ -34,13 +33,10 @@ c) Luomani tiedostojen koko erot ovat: 79M gz, 144M xz. Eli gz-pakkaus on tehokk
 ##4. 
 a)Käytin tehtävissä https://chmod-calculator.com/. Kaikille luku ja kirjoitusoikeuksien antaminen tapahtuu: 
 _chmod +666 (tiedosto)_ ja _chmod a=rw (tiedosto)_
--komennoilla.
 
 b) Kohdan a kirjoitusoikeuksien poisto kaikilta tapahtuisi 
 _chmod a-w (tiedosto) ja chmod 222 (tiedosto)_
--komennolla.
 
 c) Tehdään uusi hakemisto, nimeltään moses. Sillä on kaikilla oikeudet lukea, mutta vain omistajalla on luku ja suoritusoikeus. Se luodaan: 
 _chmod 744 moses ja chmod u=rwx,go=r moses_
--komennoilla.
 
